@@ -190,6 +190,15 @@ call s:hi("healthError", s:nord11_gui, s:nord1_gui, s:nord11_term, s:nord1_term,
 call s:hi("healthSuccess", s:nord14_gui, s:nord1_gui, s:nord14_term, s:nord1_term, "", "")
 call s:hi("healthWarning", s:nord13_gui, s:nord1_gui, s:nord13_term, s:nord1_term, "", "")
 call s:hi("TermCursorNC", "", s:nord1_gui, "", s:nord1_term, "", "")
+" Builtin diagnostic
+call s:hi("DiagnosticHint", s:nord3_gui_bright, "", s:nord3_term, "", "", "")
+call s:hi("DiagnosticWarn", s:nord13_gui, "", s:nord13_term, "", "", "")
+call s:hi("DiagnosticError" , s:nord11_gui, "", s:nord11_term, "", "", "")
+call s:hi("DiagnosticInfo" , s:nord8_gui, "", s:nord8_term, "", "", "")
+call s:hi("DiagnosticHint", s:nord3_gui_bright, "", s:nord3_term, "", "undercurl", "")
+call s:hi("DiagnosticWarn", s:nord13_gui, "", s:nord13_term, "", "undercurl", "")
+call s:hi("DiagnosticError" , s:nord11_gui, "", s:nord11_term, "", "undercurl", "")
+call s:hi("DiagnosticInfo" , s:nord8_gui, "", s:nord8_term, "", "undercurl", "")
 
 "+- Vim 8 Terminal Colors -+
 if has('terminal')

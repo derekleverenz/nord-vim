@@ -581,6 +581,7 @@ call s:hi("CocErrorSign" , s:nord11_gui, "", s:nord11_term, "", "", "")
 call s:hi("CocInfoSign" , s:nord8_gui, "", s:nord8_term, "", "", "")
 call s:hi("CocHintSign" , s:nord10_gui, "", s:nord10_term, "", "", "")
 
+
 " Neovim LSP
 " > neovim/nvim-lspconfig
 call s:hi("LspCodeLens", s:nord3_gui_bright, "", s:nord3_term, "", "", "")
@@ -839,6 +840,9 @@ hi! link VimwikiList markdownListMarker
 " YAML
 " > stephpy/vim-yaml
 call s:hi("yamlKey", s:nord7_gui, "", s:nord7_term, "", "", "")
+
+" simrat39/symbols-outline.nvim
+call s:hi("FocusedSymbol", "", s:nord1_gui, "NONE", s:nord1_term, "NONE", "")
 
 "+------------+
 "+ Public API +
